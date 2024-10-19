@@ -1,0 +1,113 @@
+
+.indice{
+    background-color: rgb(200,200,200);
+    width: 200px;
+    border: 1px solid black;
+    text-align: left;
+    font-size: smaller;
+    border-radius: 5px;
+ }
+
+ .tabella{
+    text-align: left;
+    background: rgb(200,200,200);
+    width: 320px;
+    border-collapse:collapse;
+    margin:20px;
+    font-size: smaller;
+ }
+
+ .tabella_nomi{
+    text-align: left;
+    background: rgb(200,200,200);
+    width: 500px;
+    border-collapse:collapse;
+    margin:20px;
+ }
+
+ .img{
+    float: right;
+    text-align: left;
+    background: rgb(200,200,200);
+    width: 200px;
+    margin:20px;
+    font-size: small;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+
+ .voti{
+    text-align: left;
+    background: rgb(200,200,200);;
+    width: 260px;
+    border-collapse:collapse;
+    margin:20px;
+    font-size: smaller;
+ }
+
+ td, th {
+    border:1px solid #939393;
+    padding:5px;
+    height: 25px;
+   }
+
+.note{
+  height: 500px; 
+  width: 350px; 
+  margin-right: 25px;
+  margin-left: 25px;
+  text-align: left;
+  float: left;
+  display: flow-root;
+}
+
+.testi{
+  height: 500px; 
+  width: 100%; 
+  align-items: center;
+  display: flow-root;
+}
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+}
+
+.banner{
+    display: fixed;
+    left:0;
+    top: 0;
+    width: 40%;
+    height:auto;
+    background-color: rgb(230,230,230);
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+    border-right: solid rgb(145, 20, 45) 1px;
+}
+
+.main{
+    background-color: rgb(230,230,230);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Helvetica ;
+    }
+
+a{
+    text-decoration: none;
+    color:crimson;
+}
+
+a:hover{
+  color:rgb(145, 20, 45);
+  text-decoration: underline;
+}
+
+hr{
+   border-color: rgb(145, 20, 45);
+}
