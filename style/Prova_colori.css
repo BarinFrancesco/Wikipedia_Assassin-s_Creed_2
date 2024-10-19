@@ -1,4 +1,8 @@
 
+body{
+   background-color: rgb(230,230,230);
+}
+
 .indice{
     background-color: rgb(200,200,200);
     width: 200px;
@@ -6,6 +10,7 @@
     text-align: left;
     font-size: smaller;
     border-radius: 5px;
+    padding: 5px;
  }
 
  .tabella{
@@ -68,35 +73,6 @@
   align-items: center;
   display: flow-root;
 }
-
-
-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:0;
-}
-
-.banner{
-    display: fixed;
-    left:0;
-    top: 0;
-    width: 40%;
-    height:auto;
-    background-color: rgb(230,230,230);
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: small;
-    border-right: solid rgb(145, 20, 45) 1px;
-}
-
-.main{
-    background-color: rgb(230,230,230);
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: Helvetica ;
-    }
 
 a{
     text-decoration: none;
