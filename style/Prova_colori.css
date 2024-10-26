@@ -4,6 +4,7 @@ body{
    flex-direction: row;
    justify-content: space-between;
    margin:0;
+   background-color: rgb(29, 28, 28);
 }
 
 .selettore{
@@ -26,6 +27,7 @@ body{
    color: rgb(200, 200, 200);
    padding-left: 15px;
    padding-right: 15px;
+   margin: 0;
    }
 
 
@@ -113,4 +115,11 @@ a:hover{
 hr{
    border-color: rgb(145, 20, 45);
 }
-
+button{
+   background-color: rgb(60, 60, 60);
+   color:rgb(200, 200, 200)
+}
+ button:hover{
+   background-color: rgb(50, 50, 50);
+   color:rgb(190, 190, 190)
+ }
