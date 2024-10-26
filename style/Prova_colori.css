@@ -1,6 +1,10 @@
 
 body{
-   background-color: rgb(230,230,230);
+   background-color: rgb(29, 28, 28);
+   color: rgb(200,200,200);
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
 }
 
 .indice{
@@ -87,3 +91,24 @@ a:hover{
 hr{
    border-color: rgb(145, 20, 45);
 }
+
+.banner{
+   display: fixed;
+   left:0;
+   top: 0;
+   width: 40%;
+   height:auto;
+   background-color:rgb(100, 50, 50);
+   margin-right : 15px;
+   text-align: left;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: small;
+   border-right: solid rgb(145, 20, 45) 1px;
+}
+
+.main{
+   background-color: rgb(29, 28, 28);
+   padding-left: 15px;
+   padding-right: 15px;
+   }

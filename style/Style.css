@@ -97,10 +97,13 @@ body{
     padding-right: 15px;
     }
 
-a{
+a, a:visited{
+    color: blue;
     text-decoration: none;
 }
 
 a:hover{
   color:crimson;
+  text-decoration: underline;
 }
+
