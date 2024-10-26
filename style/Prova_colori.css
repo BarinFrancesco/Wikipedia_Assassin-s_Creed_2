@@ -1,10 +1,9 @@
 
 body{
-   background-color: rgb(29, 28, 28);
-   color: rgb(200,200,200);
    display: flex;
-   flex-direction:row;
+   flex-direction: row;
    justify-content: space-between;
+   margin:0;
 }
 
 .indice{
@@ -98,7 +97,7 @@ hr{
    top: 0;
    width: 40%;
    height:auto;
-   background-color:rgb(100, 50, 50);
+   background-color:rgb(50, 50, 50);
    margin-right : 15px;
    text-align: left;
    padding-left: 20px;
